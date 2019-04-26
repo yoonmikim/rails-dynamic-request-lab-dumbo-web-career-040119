@@ -1,13 +1,6 @@
 <div>
     <div><%= @student.first_name + " " + @student.last_name %></div>
-  <% end %>
+  
+  <%= link_to “Back to Index”, students_path %>
+  
 </div>
-
-show.html.erb
-	HI I AM A SHOW PAGE
-<h1><%= @student.first_name %> </h1>
-<h1><%= @student.last_name %> </h1>
-
-		  <%= link_to “Back to Index”, “/dinosaurs” %>
-		  <%= link_to “Back to Index”, dinosaurs_path %>
-
