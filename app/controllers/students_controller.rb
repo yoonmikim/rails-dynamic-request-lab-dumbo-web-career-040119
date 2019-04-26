@@ -4,8 +4,7 @@ class StudentsController < ApplicationController
   end
   
   def show
-  	@student = Dinosaur.find(params[:id])
-  	Render :show
+  	@student = Student.find(params[:id])
   end
   
 end
